@@ -19,6 +19,20 @@ ul {
   list-style: none;
 }
 
+.top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.title {
+  font-family: "Raleway", Tahoma, sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
 /* ---------HEADER------------ */
 .header {
   background-color: gray;
@@ -77,16 +91,10 @@ ul {
   color: var(--accent-color);
 }
 .hero-top-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: rgba(157, 164, 189, 0.6);
 }
 .hero-title {
   font-family: "Raleway", Tahoma, sans-serif;
-  font-weight: 700;
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
@@ -102,19 +110,9 @@ ul {
 /* ---------------about----------- */
 
 .about-top-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: #303030;
 }
 .about-title {
-  font-family: "Raleway", Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.16;
-  letter-spacing: 0.05em;
   color: var(--second-title-color);
 }
 .about-bottom-text {
@@ -141,32 +139,15 @@ ul {
 /* ---------------------prices------------- */
 
 .prices-top-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: rgba(157, 164, 189, 0.6);
 }
 .prices-title {
-  font-family: "Raleway", Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.16;
-  letter-spacing: 0.05em;
   color: var(--main-title-color);
 }
 
 .prices-item-text {
   font-size: 18px;
   line-height: 1.66;
-  letter-spacing: 0.02em;
-  color: var(--prices-primary-text);
-}
-.prices-item-count {
-  font-size: 18px;
-  line-height: 1.66;
-  text-align: right;
   letter-spacing: 0.02em;
   color: var(--prices-primary-text);
 }
@@ -187,7 +168,7 @@ ul {
 .reasons-item-count {
   font-weight: 700;
   font-size: 42px;
-  line-height: 1.35;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.05em;
   color: #303030;
@@ -201,24 +182,14 @@ ul {
   color: #303030;
 }
 .reasons-top-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: #303030;
 }
 .reasons-title {
-  font-family: "Raleway", Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.16;
-  letter-spacing: 0.05em;
   color: var(--second-title-color);
 }
 .reasons-bottom-text {
   font-size: 18px;
-  line-height: 1.66px;
+  line-height: 1.67px;
   letter-spacing: 0.02em;
   color: #555555;
 }
@@ -235,13 +206,6 @@ ul {
 }
 
 .masters-title {
-  font-family: "Raleway", Tahoma, sans-serif;
-
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.16;
-  letter-spacing: 0.05em;
-
   color: var(--second-title-color);
 }
 
