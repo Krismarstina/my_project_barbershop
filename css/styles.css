@@ -232,6 +232,7 @@ ul {
 }
 
 /* ---------------contacts---------- */
+
 .contacts {
   background-color: gray;
 }
@@ -240,6 +241,7 @@ ul {
 }
 
 .contacts-link {
+  font-style: normal;
   font-size: 18px;
   line-height: 1.66;
   letter-spacing: 0.02em;
