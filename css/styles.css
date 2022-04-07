@@ -11,12 +11,26 @@
 body {
   font-family: "Open Sans", Tahoma, sans-serif;
 }
+
 a {
   text-decoration: none;
 }
 
 ul {
   list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .top-text {
@@ -32,6 +46,20 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.05em;
 }
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
 
 /* ---------HEADER------------ */
 .header {
@@ -42,7 +70,6 @@ ul {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-
   color: var(--header-color);
 }
 
@@ -55,20 +82,11 @@ ul {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-
   color: var(--header-color);
 }
 
 .header-btn {
   border-radius: 25px;
-
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-
   color: var(--header-color);
 }
 
@@ -101,9 +119,6 @@ ul {
   color: var(--main-title-color);
 }
 .hero-bottom-text {
-  font-size: 18px;
-  line-height: 1.66;
-  letter-spacing: 0.02em;
   color: #9da4bd;
 }
 
@@ -116,9 +131,6 @@ ul {
   color: var(--second-title-color);
 }
 .about-bottom-text {
-  font-size: 18px;
-  line-height: 1.66;
-  letter-spacing: 0.02em;
   color: #555555;
 }
 .about-text {
@@ -128,11 +140,6 @@ ul {
   color: #555555;
 }
 .about-btn {
-  font-family: inherit;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
   color: var(--second-btn-color);
 }
 
@@ -153,13 +160,6 @@ ul {
 }
 
 .prices-btn {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-
   color: var(--main-btn-color);
 }
 
@@ -188,20 +188,12 @@ ul {
   color: var(--second-title-color);
 }
 .reasons-bottom-text {
-  font-size: 18px;
-  line-height: 1.67px;
-  letter-spacing: 0.02em;
   color: #555555;
 }
 
 /* ----------masters------------- */
 
-.masters-bottom-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.masters-top-text {
   color: #303030;
 }
 
@@ -210,15 +202,16 @@ ul {
 }
 
 .masters-item-title {
+  font-weight: 400;
   font-size: 18px;
-  line-height: 1.38;
+  line-height: 1.39;
   text-align: center;
   letter-spacing: 0.02em;
   color: #303030;
 }
 .masters-item-text {
   font-size: 14px;
-  line-height: 1.35;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--accent-color);
@@ -227,25 +220,7 @@ ul {
 /*---------------gallery-----------  */
 
 .gallery-top-text {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: #303030;
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
 }
 
 /* ----------------entry-------------- */
@@ -253,11 +228,6 @@ ul {
   background-color: gray;
 }
 .entry-title {
-  font-family: "Raleway", Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.16;
-  letter-spacing: 0.05em;
   color: var(--main-title-color);
 }
 
@@ -266,11 +236,6 @@ ul {
   background-color: gray;
 }
 .contacts-title {
-  font-family: "Raleway", Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.16;
-  letter-spacing: 0.05em;
   color: var(--main-title-color);
 }
 
@@ -293,9 +258,6 @@ ul {
 }
 
 .contacts-bottom-text {
-  font-size: 18px;
-  line-height: 1.66;
-  letter-spacing: 0.02em;
   color: #9da4bd;
 }
 
