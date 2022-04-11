@@ -10,37 +10,52 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Barbershop</title>
   </head>
   <body>
     <header class="header">
-      <a href="" class="header-logo">
-        <img src="./images/logo.svg" alt="лого сайта" />
-      </a>
-      <nav class="header-navigation">
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="" class="header-link link">О нас</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Услуги и цены</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Мастера</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Контакты</a>
+      <div class="container header">
+        <a href="" class="header-logo">
+          <img src="./images/logo.svg" alt="лого сайта" />
+        </a>
+        <nav class="header-navigation">
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="" class="header-link link">О нас</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Услуги и цены</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Мастера</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-list">
+          <li class="auth-item">
+            <a href="tel:+380441111111" class="header-tel link"
+              >+38 044 111 11 11</a
+            >
+          </li class="auth-item">
+          <li>
+            <button type="button" class="header-btn btn">онлайн-запись</button>
           </li>
         </ul>
-      </nav>
-      <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
-      <button type="button" class="header-btn btn">онлайн-запись</button>
+      </div>
     </header>
 
     <main>
       <!-- Hero -->
       <section class="hero">
+        <div class="container">
         <ul class="hero-list">
           <li class="hero-item">
             <a
@@ -67,15 +82,18 @@
           </p>
           <h1 class="hero-title">BarberShop</h1>
           <p class="hero-bottom-text bottom-text">
-            Мы эксперты в модных мужских стрижках.Работаем быстро, осторожно и
+            Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и
             со вкусом.
           </p>
+        </div>
         </div>
       </section>
 
       <!-- about us -->
       <section class="about">
-        <ul class="about-list">
+        <div class="container wrap">
+       
+          <ul class="about-list">
           <li class="about-item">
             <img
               src="./images/about-img-1.jpg"
@@ -93,6 +111,7 @@
             />
           </li>
         </ul>
+        <div class="about-desc">
         <p class="about-top-text top-text">О НАС</p>
         <h2 class="about-title title">Лучший Барбершоп твоего города</h2>
         <h3 class="about-bottom-text bottom-text">
@@ -107,14 +126,19 @@
           приходит!
         </p>
         <button type="button" class="about-btn btn">онлайн-запись</button>
+      </div>
+      </div>
       </section>
 
       <!-- prices -->
-      <section class="prices">
+      <section class="prices overlay">
+        <div class="container">
         <p class="prices-top-text top-text">
           Проведи время в компании лучших мастеров
         </p>
-        <h2 class="prices-title title">Услуги и цены</h2>
+         <h2 class="prices-title title">Услуги и цены</h2>
+        <div class="prices-cards">
+       
         <ul class="prices-list">
           <li class="prices-item">
             <p class="prices-item-text">Мужская стрижка</p>
@@ -151,11 +175,13 @@
             <p class="prices-item-text">от 200 грн.</p>
           </li>
         </ul>
+        </div>
         <button type="button" class="prices-btn btn">онлайн-запись</button>
       </section>
 
       <!-- reasons -->
       <section class="reasons">
+        <div class="container">
         <ul class="reasons-list">
           <li class="reasons-item">
             <span class="reasons-item-count">600</span>
@@ -180,10 +206,13 @@
           О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать,
           чем 10 раз прочитать.
         </p>
+        </div>
+        </div>
       </section>
 
       <!-- мастера -->
       <section class="masters">
+        <div class="container">
         <p class="masters-top-text top-text">
           для настоящих ценителей атмосферы
         </p>
@@ -195,9 +224,42 @@
               alt="барбер стрижет бороду"
               width="370"
               height="346"
+              class="masters-image"
+            
             />
+          
             <h3 lang="en" class="masters-item-title">John Smith</h3>
             <p lang="en" class="masters-item-text">Extreme Barber</p>
+            <ul class="masters-social">
+                  <li class="masters-social-item">
+                    <a href="" class="masters-link">
+                      <svg class="masters-icon" width="20" height="20">
+                        <use href="./images/symbol-defs-barbershop.svg#icon-instagram-2""></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-link">
+                      <svg class="masters-icon" width="20" height="20">
+                        <use href="./images/symbol-defs-barbershop.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-link">
+                      <svg class="masters-icon" width="20" height="20">
+                        <use href="./images/symbol-defs-barbershop.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-link">
+                      <svg class="masters-icon" width="20" height="20">
+                        <use href="./images/symbol-defs-barbershop.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
           </li>
           <li class="masters-item">
             <img
@@ -205,9 +267,13 @@
               alt="барбер стрижет бороду"
               width="370"
               height="346"
+              class="masters-image"
             />
             <h3 lang="en" class="masters-item-title">Michele Doe</h3>
             <p lang="en" class="masters-item-text">Extreme Barber</p>
+           <svg>
+              <use href="./images/symbol-defs-barbershop.svg#icon-instagram-2" width="20" height="20" ></use>
+            </svg>
           </li>
           <li class="masters-item">
             <img
@@ -215,15 +281,22 @@
               alt="барбер стрижет бороду"
               width="370"
               height="346"
+              class="masters-image"
             />
             <h3 lang="en" class="masters-item-title">Alan Black</h3>
-            <p lang="en" class="masters-item-text">Extreme Barber</p>
+
+           <p lang="en" class="masters-item-text">Extreme Barber</p>
+          <svg>
+              <use href="./images/symbol-defs-barbershop.svg#icon-instagram-2" width="20" height="20" ></use>
+            </svg>
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Галерея -->
       <section class="gallery">
+        <div class="container">
         <p class="gallery-top-text top-text">
           На латинском языке “барба” означает “борода”
         </p>
@@ -262,6 +335,7 @@
             />
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- entry -->
