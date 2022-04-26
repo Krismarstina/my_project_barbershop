@@ -21,7 +21,9 @@
     <header class="header">
       <div class="container">
         <a href="" class="header-logo">
-          <img src="./images/logo.svg" alt="лого сайта" />
+          <svg>
+            <use href="./images/symbol-defs-barbershop.svg#logo-icon"></use>
+          </svg>
         </a>
         <nav class="header-navigation">
           <ul class="header-list">
@@ -57,7 +59,7 @@
       <section class="hero">
         <div class="container">
         <ul class="hero-list">
-          <li class="hero-item">
+          <li class="hero-item first">
             <a
               href=""
               target="_blank"
@@ -66,7 +68,7 @@
               >Youtube</a
             >
           </li>
-          <li class="hero-item">
+          <li class="hero-item second">
             <a
               href=""
               target="_blank"
@@ -186,18 +188,30 @@
           <li class="reasons-item first">
             <span class="reasons-item-count">600</span>
             <p class="reasons-item-text">Довольных клиентов в день</p>
+            <svg class="reasons-icon-plus">
+              <use href="./images/symbol-defs-barbershop.svg#plus-icon"></use>
+            </svg>
           </li>
-          <li class="reasons-item">
+          <li class="reasons-item second">
             <span class="reasons-item-count">50</span>
             <p class="reasons-item-text">Наград за отличный сервис</p>
+            <svg class="reasons-icon-plus">
+              <use href="./images/symbol-defs-barbershop.svg#plus-icon"></use>
+            </svg>
           </li>
-          <li class="reasons-item">
+          <li class="reasons-item third">
             <span class="reasons-item-count">20</span>
             <p class="reasons-item-text">Лучших мастеров Киева</p>
+            <svg class="reasons-icon-plus">
+              <use href="./images/symbol-defs-barbershop.svg#plus-icon"></use>
+            </svg>
           </li>
-          <li class="reasons-item">
-            <span class="reasons-item-count">100</span>
+          <li class="reasons-item fourth">
+            <span class="reasons-item-count" >100</span>
             <p class="reasons-item-text">Подарков постоянным клиентåам</p>
+            <svg class="reasons-icon-plus">
+              <use href="./images/symbol-defs-barbershop.svg#plus-icon"></use>
+            </svg>
           </li>
         </ul>
         <div class="reasons-content">
@@ -409,20 +423,32 @@
         <address class="contacts-address">
           <ul class="contacts-list">
             <li class="contacts-item">
+              <svg class="contacts-item-icon"  width="24" height="24">
+                <use href="./images/symbol-defs-barbershop.svg#map-pin-footer"></use>
+              </svg>
+
               <a
                 class="contacts-link"
                 href="https://goo.gl/maps/zciWh8pHj7HBkHEJ8"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                >ул. Васильковская, 7А Киев, 08132</a
+                >ул. Васильковская, 7А <br> Киев, 08132</a
               >
             </li>
             <li class="contacts-item">
+              <svg class="contacts-item-icon" width="24" height="24">
+                <use href="./images/symbol-defs-barbershop.svg#phone-footer"></use>
+              </svg>
+
               <a class="contacts-link" href="tel:+380441111111"
                 >+38 044 111 11 11</a
               >
             </li>
             <li class="contacts-item mail">
+              <svg class="contacts-item-icon" width="24" height="24">
+                <use href="./images/symbol-defs-barbershop.svg#mail-footer"></use>
+              </svg>
+
               <a class="contacts-link mail" href="mailto:barbershop@email.com"
                 >barbershop@email.com</a
               >
@@ -438,9 +464,10 @@
     </main>
 
     <footer class="footer">
+      <div class="container">
       <p class="footer-copyright">&#169; Copyright 2020</p>
       <ul class="footer-list">
-        <li class="footer-item">
+        <li class="footer-item-instagram">
           <a
             class="footer-link"
             href=""
@@ -449,7 +476,7 @@
             >Instagram</a
           >
         </li>
-        <li class="footer-item">
+        <li class="footer-item-youtube">
           <a
             class="footer-link"
             href=""
@@ -459,6 +486,7 @@
           >
         </li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>
